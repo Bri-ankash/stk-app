@@ -34,9 +34,9 @@ python app.py`
 
 Send a payment:
 curl -X POST http://127.0.0.1:5000/pay \
--H "Content-Type: application/json" \
+`-H "Content-Type: application/json" \
 -H "x-api-key: mysecret123" \
--d '{"phone":"254712345678","amount":500}'
+-d '{"phone":"254712345678","amount":500}'`
 
 ---
 
