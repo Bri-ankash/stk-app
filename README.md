@@ -27,8 +27,8 @@ Quick Start
 
 git clone https://github.com/Bri-ankash/stk-app.git
 cd stk-app
-pip install flask
-python app.py
+`pip install flask
+python app.py`
 
 ---
 
