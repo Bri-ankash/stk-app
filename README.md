@@ -25,7 +25,6 @@ Features
 
 Quick Start
 
-```bash
 git clone https://github.com/Bri-ankash/stk-app.git
 cd stk-app
 pip install flask
@@ -33,4 +32,18 @@ python app.py
 
 ---
 
+Send a payment:
+curl -X POST http://127.0.0.1:5000/pay \
+-H "Content-Type: application/json" \
+-H "x-api-key: mysecret123" \
+-d '{"phone":"254712345678","amount":500}'
 
+---
+
+View transactions:
+curl -H "x-api-key: mysecret123" http://127.0.0.1:5000/transactions
+
+---
+
+Author
+Brian Kash | GitHub:https://github.com/Bri-ankash/
