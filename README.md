@@ -1,13 +1,36 @@
-**🚀 STK Push Simulator API**
-Simulated M-Pesa STK Push Backend | Python + Flask | Portfolio-ready
+ 🚀 STK Push Simulator API
+
+**Simulated M-Pesa STK Push Backend** | Python + Flask | Portfolio-ready  
+
+![Python](https://img.shields.io/badge/Python-3.12-blue) ![Flask](https://img.shields.io/badge/Flask-2.3-orange) ![Status](https://img.shields.io/badge/Status-Prototype-green)
+
 ---
-**Overview**
-A lightweight backend API that simulates STK Push payments, stores transactions in JSON, and secures endpoints with an API key. Perfect for fintech portfolio projects.
+
+Overview
+
+Backend API that simulates **M-Pesa STK Push payments**.  
+Transactions are logged in JSON and endpoints are secured with an **API key**.
+
 ---
-**Features**
-_POST /pay_ → Send a simulated payment
-_GET /transactions_ → View all transactions
-_GET /transaction/<id>_ → Lookup a transaction by ID
-Random success/failure simulation (80% success)
-API key authentication
-Transaction logging in transactions.json
+
+Features
+
+- `POST /pay` → Simulate payment (80% success)  
+- `GET /transactions` → View all transactions  
+- `GET /transaction/<id>` → Lookup a transaction  
+- API key authentication  
+- Transaction logging in `transactions.json`  
+
+---
+
+Quick Start
+
+```bash
+git clone https://github.com/Bri-ankash/stk-app.git
+cd stk-app
+pip install flask
+python app.py
+
+---
+
+
